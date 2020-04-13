@@ -7,5 +7,5 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE  8080
-CMD [ "python3", "-u", "./module01.py", "-p 8080" ]
+EXPOSE  8081
+CMD [ "python3", "-u", "./module01.py", "-p 8081" ]
